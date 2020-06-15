@@ -1,41 +1,57 @@
 #title{
-  background-color: #ff4c68;
+  background-color: #7e0cf5;
 
 }
-#features{
-  font-size: 18px;
-}
+
 .black-heading{
-  font-family:"Montserrat-black",sans-serif;
+  font-family:"Montserrat-bold";
   line-height: 1.5;
-  size: 3rem;
-  font-size: 80px;
+  font-size: 3.5rem;
   color: white;
+  padding: 20px 20px 20px 15px;
 }
 .container-fluid{
   padding: 3% 15%;
+  padding-bottom: 100px;
+}
+.image1{
+    transform:rotate(25deg);
+    width: 55%;
+    padding-top: 30px;
+    position: absolute;
+    right: 28%;
+}
+@media (max-width:1024px) {
+#title{
+  text-align: center;
+}
+.image1{
+  position: static;
+  transform: rotate(0);
+
+}
+}
+
+
+#features{
+  font-size: 18px;
+  background-color: white;
+  z-index:1;
+  position: relative;
 }
 .featureM{
   padding: 150px;
 
 }
-.image1{
-    transform:rotate(30deg);
-    width: 300px;
-    padding: 30px;
-    margin-left: 30px;
-
-
-}
 .icon{
-  color: #ff4c68;
+  color: #7e0cf5;
   text-align: center;
   font-size: 100px;
   padding: 20px;
   margin: auto 50px auto 50px;
 }
 .icon:hover{
-  color: red;
+  color: purple;
 }
 .centre{
   text-align: center;
@@ -45,4 +61,55 @@
   width: 70%;
   text-align: center;
   margin-left: 70px;
+}
+
+#testimonials{
+background-color: #7e0cf5;
+
+text-align: center;
+color: #fff;
+}
+h2{
+  font-family: "Montserrat-bold";
+  font-size: 3.5rem;
+  line-height:1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #7e0cf5;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+.carousel-item{
+padding: 7% 15%;
+}
+#pricing{
+  text-align: center;
+  padding: 100px;
+}
+#cta{
+  background-color: #7e0cf5;
+  padding: 100px;
+   color: white;
+   font-family: "Montserrat-black";
+  text-align: center;
+  line-height: 1.5;
+
+}
+#footer{
+  background-color: #fff;
+  padding: 100px;
+  text-align: center;
+}
+.iconf{
+  padding: 15px;
 }
